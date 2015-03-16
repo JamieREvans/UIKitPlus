@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'UIKitPlus', :exclusive => true do
+  pod "UIKitPlus", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UIKitPlus", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
