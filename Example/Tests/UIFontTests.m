@@ -3,7 +3,7 @@
 //  FoundationPlus
 //
 //  Created by Jamie Evans on 2015-03-16.
-//  Copyright (c) 2015 Jamie Evans. All rights reserved.
+//  Copyright (c) 2015 Jamie Riley Evans. All rights reserved.
 //
 
 #import <UIKitPlus/UIFont+Allocation.h>
