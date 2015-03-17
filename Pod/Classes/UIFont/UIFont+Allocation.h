@@ -3,19 +3,19 @@
 //  Pods
 //
 //  Created by Jamie Evans on 2015-03-16.
-//  Copyright (c) 2015 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2015 Jamie Riley Evans. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-typedef enum
+typedef NS_ENUM(NSUInteger, FontType)
 {
     FontTypeRegular = 0,
     FontTypeLight,
     FontTypeUltraLight,
     FontTypeMedium,
     FontTypeBold
-} FontType;
+};
 
 @interface UIFont (Allocation)
 

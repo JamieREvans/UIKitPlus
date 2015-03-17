@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Jamie Evans on 2015-03-16.
-//  Copyright (c) 2015 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2015 Jamie Riley Evans. All rights reserved.
 //
 
 #import "UIColor+Allocation.h"

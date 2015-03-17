@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Jamie Evans, jevans@kineticcafe.com
+Jamie Evans, jamie.riley.evans@gmail.com
 
 ## License
 
