@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImageView+Allocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImageView(Allocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/imageViewWithFrame:andImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)imageViewWithFrame:(CGRect)frame andImage:(UIImage *)image</Declaration>
+			
+			
+			<Anchor>//api/name/imageViewWithFrame:andImage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/imageViewWithFrame:andImage:userInteractionEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)imageViewWithFrame:(CGRect)frame andImage:(UIImage *)image userInteractionEnabled:(BOOL)userInteractionEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/imageViewWithFrame:andImage:userInteractionEnabled:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/imageViewWithFrame:andImage:userInteractionEnabled:isCircle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)imageViewWithFrame:(CGRect)frame andImage:(UIImage *)image userInteractionEnabled:(BOOL)userInteractionEnabled isCircle:(BOOL)isCircle</Declaration>
+			
+			
+			<Anchor>//api/name/imageViewWithFrame:andImage:userInteractionEnabled:isCircle:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/imageViewWithFrame:andImage:userInteractionEnabled:isCircle:withBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)imageViewWithFrame:(CGRect)frame andImage:(UIImage *)image userInteractionEnabled:(BOOL)userInteractionEnabled isCircle:(BOOL)isCircle withBorderColor:(UIColor *)borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/imageViewWithFrame:andImage:userInteractionEnabled:isCircle:withBorderColor:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/imageViewWithFrame:andImage:userInteractionEnabled:isCircle:optimizingImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)imageViewWithFrame:(CGRect)frame andImage:(UIImage *)image userInteractionEnabled:(BOOL)userInteractionEnabled isCircle:(BOOL)isCircle optimizingImage:(BOOL)shouldOptimizeImage</Declaration>
+			
+			
+			<Anchor>//api/name/imageViewWithFrame:andImage:userInteractionEnabled:isCircle:optimizingImage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

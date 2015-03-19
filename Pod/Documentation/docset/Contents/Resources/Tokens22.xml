@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Autolayout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Autolayout)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignToRightOfView:withPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignToRightOfView:(UIView *)view withPadding:(CGFloat)padding</Declaration>
+			
+			
+			<Anchor>//api/name/alignToRightOfView:withPadding:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignToLeftOfView:withPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignToLeftOfView:(UIView *)view withPadding:(CGFloat)padding</Declaration>
+			
+			
+			<Anchor>//api/name/alignToLeftOfView:withPadding:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignBelowView:withPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignBelowView:(UIView *)view withPadding:(CGFloat)padding</Declaration>
+			
+			
+			<Anchor>//api/name/alignBelowView:withPadding:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignAboveView:withPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignAboveView:(UIView *)view withPadding:(CGFloat)padding</Declaration>
+			
+			
+			<Anchor>//api/name/alignAboveView:withPadding:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignLeftToLayoutPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignLeftToLayoutPosition:(CGFloat)position</Declaration>
+			
+			
+			<Anchor>//api/name/alignLeftToLayoutPosition:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignRightToSuperviewWithPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignRightToSuperviewWithPadding:(CGFloat)padding</Declaration>
+			
+			
+			<Anchor>//api/name/alignRightToSuperviewWithPadding:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignTopToLayoutPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignTopToLayoutPosition:(CGFloat)position</Declaration>
+			
+			
+			<Anchor>//api/name/alignTopToLayoutPosition:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignBottomToSuperviewWithPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignBottomToSuperviewWithPadding:(CGFloat)padding</Declaration>
+			
+			
+			<Anchor>//api/name/alignBottomToSuperviewWithPadding:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignCenterHorizontally</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignCenterHorizontally</Declaration>
+			
+			
+			<Anchor>//api/name/alignCenterHorizontally</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignCenterVertically</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignCenterVertically</Declaration>
+			
+			
+			<Anchor>//api/name/alignCenterVertically</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)alignCenter</Declaration>
+			
+			
+			<Anchor>//api/name/alignCenter</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setLayoutWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)setLayoutWidth:(CGFloat)layoutWidth</Declaration>
+			
+			
+			<Anchor>//api/name/setLayoutWidth:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/matchWidthToView:withExtension:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)matchWidthToView:(UIView *)view withExtension:(CGFloat)extension</Declaration>
+			
+			
+			<Anchor>//api/name/matchWidthToView:withExtension:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/matchWidthToView:withPercentage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)matchWidthToView:(UIView *)view withPercentage:(CGFloat)viewWidthPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/matchWidthToView:withPercentage:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/matchWidthToRightOfView:withExtension:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)matchWidthToRightOfView:(UIView *)view withExtension:(CGFloat)extension</Declaration>
+			
+			
+			<Anchor>//api/name/matchWidthToRightOfView:withExtension:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setLayoutHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)setLayoutHeight:(CGFloat)layoutHeight</Declaration>
+			
+			
+			<Anchor>//api/name/setLayoutHeight:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/matchHeightToView:withExtension:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)matchHeightToView:(UIView *)view withExtension:(CGFloat)extension</Declaration>
+			
+			
+			<Anchor>//api/name/matchHeightToView:withExtension:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/matchHeightToView:withPercentage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)matchHeightToView:(UIView *)view withPercentage:(CGFloat)viewHeightPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/matchHeightToView:withPercentage:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/matchHeightToBottomOfView:withExtension:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Autolayout.h</DeclaredIn>
+			
+			<Declaration>- (void)matchHeightToBottomOfView:(UIView *)view withExtension:(CGFloat)extension</Declaration>
+			
+			
+			<Anchor>//api/name/matchHeightToBottomOfView:withExtension:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

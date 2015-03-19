@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSAttributedString+Allocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSAttributedString(Allocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/attributedStringWithString:font:andTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (NSAttributedString *)attributedStringWithString:(NSString *)string font:(UIFont *)font andTextColor:(UIColor *)textColor</Declaration>
+			
+			
+			<Anchor>//api/name/attributedStringWithString:font:andTextColor:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/attributedStringWithTextSegments:andAttributeSegments:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (NSAttributedString *)attributedStringWithTextSegments:(NSArray *)textSegments andAttributeSegments:(NSArray *)attributeDictionaries</Declaration>
+			
+			
+			<Anchor>//api/name/attributedStringWithTextSegments:andAttributeSegments:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/addFont:forRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)addFont:(UIFont *)font forRange:(NSRange)range</Declaration>
+			
+			
+			<Anchor>//api/name/addFont:forRange:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/addFont:forString:onlyFirstOccurence:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)addFont:(UIFont *)font forString:(NSString *)searchString onlyFirstOccurence:(BOOL)onlyFirstOccurence</Declaration>
+			
+			
+			<Anchor>//api/name/addFont:forString:onlyFirstOccurence:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/addColor:forRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)addColor:(UIColor *)color forRange:(NSRange)range</Declaration>
+			
+			
+			<Anchor>//api/name/addColor:forRange:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/addColor:forString:onlyFirstOccurence:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)addColor:(UIColor *)color forString:(NSString *)searchString onlyFirstOccurence:(BOOL)onlyFirstOccurence</Declaration>
+			
+			
+			<Anchor>//api/name/addColor:forString:onlyFirstOccurence:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/setLineSpacing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)setLineSpacing:(CGFloat)lineSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/setLineSpacing:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSAttributedString/setLineSpacing:forRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)setLineSpacing:(CGFloat)lineSpacing forRange:(NSRange)range</Declaration>
+			
+			
+			<Anchor>//api/name/setLineSpacing:forRange:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

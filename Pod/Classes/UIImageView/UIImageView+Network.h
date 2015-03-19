@@ -11,6 +11,9 @@
 @interface UIImageView (Network)
 
 - (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage;
+// allows caching defaults to YES
 - (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage allowsCaching:(BOOL)allowsCaching;
+// animated defaults to YES
+- (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage allowsCaching:(BOOL)allowsCaching animated:(BOOL)shouldAnimate;
 
 @end

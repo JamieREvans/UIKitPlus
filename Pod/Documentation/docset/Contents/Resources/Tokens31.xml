@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NavigationButtonType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NavigationButtonType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NavigationButtonTypeDefault</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>NavigationButtonTypeDefault</Declaration>
+            
+            <DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NavigationButtonTypeClose</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>NavigationButtonTypeClose</Declaration>
+            
+            <DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NavigationButtonTypeCancel</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>NavigationButtonTypeCancel</Declaration>
+            
+            <DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NavigationButtonTypeMenu</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>NavigationButtonTypeMenu</Declaration>
+            
+            <DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NavigationButtonTypeSave</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>NavigationButtonTypeSave</Declaration>
+            
+            <DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NavigationButtonTypeReset</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>NavigationButtonTypeReset</Declaration>
+            
+            <DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NavigationButtonTypeNoBack</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>NavigationButtonTypeNoBack</Declaration>
+            
+            <DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

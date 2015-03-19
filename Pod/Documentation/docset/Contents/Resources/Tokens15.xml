@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImageView+Rendering.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImageView(Rendering)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Rendering.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImage:maintainsCornerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Rendering.h</DeclaredIn>
+			
+			<Declaration>- (void)setImage:(UIImage *)image maintainsCornerRadius:(BOOL)shouldMaintainCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/setImage:maintainsCornerRadius:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImage:automaticallyAdjustsFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Rendering.h</DeclaredIn>
+			
+			<Declaration>- (void)setImage:(UIImage *)image automaticallyAdjustsFrame:(BOOL)shouldAutomaticallyAdjustFrame</Declaration>
+			
+			
+			<Anchor>//api/name/setImage:automaticallyAdjustsFrame:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImage:automaticallyAdjustsFrame:respectingBounds:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Rendering.h</DeclaredIn>
+			
+			<Declaration>- (void)setImage:(UIImage *)image automaticallyAdjustsFrame:(BOOL)shouldAutomaticallyAdjustFrame respectingBounds:(BOOL)respectsBounds</Declaration>
+			
+			
+			<Anchor>//api/name/setImage:automaticallyAdjustsFrame:respectingBounds:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImage:croppingToBoundsRespectingScale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Rendering.h</DeclaredIn>
+			
+			<Declaration>- (void)setImage:(UIImage *)image croppingToBoundsRespectingScale:(BOOL)shouldRespectScreenScale</Declaration>
+			
+			
+			<Anchor>//api/name/setImage:croppingToBoundsRespectingScale:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

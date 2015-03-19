@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Masking.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Masking)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Masking.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/maskToRect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Masking.h</DeclaredIn>
+			
+			<Declaration>- (void)maskToRect:(CGRect)rectForMask</Declaration>
+			
+			
+			<Anchor>//api/name/maskToRect:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/maskToRects:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Masking.h</DeclaredIn>
+			
+			<Declaration>- (void)maskToRects:(NSArray *)maskValueArray</Declaration>
+			
+			
+			<Anchor>//api/name/maskToRects:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

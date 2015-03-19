@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NavigationNotificationExtention.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NavigationNotificationExtention</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+Navigation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NavigationNotificationExtention/viewControllerWasPopped</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+Navigation.h</DeclaredIn>
+			
+			<Declaration>- (void)viewControllerWasPopped</Declaration>
+			
+			
+			<Anchor>//api/name/viewControllerWasPopped</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

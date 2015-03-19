@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImageView+Network.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImageView(Network)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Network.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImageWithURLPath:forPlaceholderImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Network.h</DeclaredIn>
+			
+			<Declaration>- (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage</Declaration>
+			
+			
+			<Anchor>//api/name/setImageWithURLPath:forPlaceholderImage:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImageWithURLPath:forPlaceholderImage:allowsCaching:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Network.h</DeclaredIn>
+			
+			<Declaration>- (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage allowsCaching:(BOOL)allowsCaching</Declaration>
+			
+			
+			<Anchor>//api/name/setImageWithURLPath:forPlaceholderImage:allowsCaching:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImageView/setImageWithURLPath:forPlaceholderImage:allowsCaching:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImageView+Network.h</DeclaredIn>
+			
+			<Declaration>- (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage allowsCaching:(BOOL)allowsCaching animated:(BOOL)shouldAnimate</Declaration>
+			
+			
+			<Anchor>//api/name/setImageWithURLPath:forPlaceholderImage:allowsCaching:animated:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

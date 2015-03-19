@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIButton+Allocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIButton(Allocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIButton+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIButton/buttonWithImage:yPosition:xPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIButton+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)buttonWithImage:(UIImage *)image yPosition:(CGFloat)yPosition xPosition:(CGFloat)xPosition</Declaration>
+			
+			
+			<Anchor>//api/name/buttonWithImage:yPosition:xPosition:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIButton/buttonWithImage:yPosition:centeredInWidth:xOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIButton+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)buttonWithImage:(UIImage *)image yPosition:(CGFloat)yPosition centeredInWidth:(CGFloat)width xOffset:(CGFloat)xOffset</Declaration>
+			
+			
+			<Anchor>//api/name/buttonWithImage:yPosition:centeredInWidth:xOffset:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

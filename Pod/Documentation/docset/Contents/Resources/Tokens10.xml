@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIFont+Allocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIFont(Allocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/baseFontFamilyName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)baseFontFamilyName</Declaration>
+			
+			
+			<Anchor>//api/name/baseFontFamilyName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/setBaseFontFamilyName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (void)setBaseFontFamilyName:(NSString *)baseFontFamilyName</Declaration>
+			
+			
+			<Anchor>//api/name/setBaseFontFamilyName:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontNameWithType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)fontNameWithType:(FontType)fontType</Declaration>
+			
+			
+			<Anchor>//api/name/fontNameWithType:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontWithType:andSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (UIFont *)fontWithType:(FontType)fontType andSize:(CGFloat)fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontWithType:andSize:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontForText:withFontName:maxFontSize:minFontSize:inWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (UIFont *)fontForText:(NSString *)textForFont withFontName:(NSString *)fontName maxFontSize:(CGFloat)maxFontSize minFontSize:(CGFloat)minFontSize inWidth:(CGFloat)maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/fontForText:withFontName:maxFontSize:minFontSize:inWidth:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/italicized</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)italicized</Declaration>
+			
+			
+			<Anchor>//api/name/italicized</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/lineHeightCapped</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)lineHeightCapped</Declaration>
+			
+			
+			<Anchor>//api/name/lineHeightCapped</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

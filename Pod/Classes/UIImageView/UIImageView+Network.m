@@ -21,6 +21,11 @@
 
 - (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage allowsCaching:(BOOL)allowsCaching
 {
+    [self setImageWithURLPath:urlPath forPlaceholderImage:placeholderImage allowsCaching:allowsCaching animated:YES];
+}
+
+- (void)setImageWithURLPath:(NSString *)urlPath forPlaceholderImage:(UIImage *)placeholderImage allowsCaching:(BOOL)allowsCaching animated:(BOOL)shouldAnimate
+{
     @synchronized(self)
     {
         __block NSUInteger localTagIteration = (++self.tag ? : (self.tag = 1));
@@ -45,31 +50,34 @@
              {
                  if(remoteImage == self.image || self.tag != localTagIteration)return;
                  
-                 UIImageView *fillerImageView = [UIImageView imageViewWithFrame:self.bounds andImage:self.image];
-                 [fillerImageView setAlpha:1.0f];
-                 [fillerImageView setClipsToBounds:self.clipsToBounds];
-                 [fillerImageView.layer setCornerRadius:self.layer.cornerRadius];
-                 [self addSubview:fillerImageView];
-                 
-                 UIImageView *imageView = [UIImageView imageViewWithFrame:self.bounds andImage:remoteImage];
-                 [imageView setAlpha:0.0f];
-                 [imageView setClipsToBounds:self.clipsToBounds];
-                 [imageView.layer setCornerRadius:self.layer.cornerRadius];
-                 [self addSubview:imageView];
-                 
-                 __weak typeof(self) selfBlockReference = self;
-                 [UIView crossFadeWithDuration:1.5f
-                                animationBlock:^
-                  {
-                      [fillerImageView setAlpha:0.0f];
-                      [imageView setAlpha:1.0f];
-                  }
-                                    completion:^(BOOL finished)
-                  {
-                      if(self.tag == localTagIteration)[selfBlockReference setImage:remoteImage maintainsCornerRadius:YES];
-                      [fillerImageView removeFromSuperview];
-                      [imageView removeFromSuperview];
-                  }];
+                 if(shouldAnimate)
+                 {
+                     UIImageView *fillerImageView = [UIImageView imageViewWithFrame:self.bounds andImage:self.image];
+                     [fillerImageView setAlpha:1.0f];
+                     [fillerImageView setClipsToBounds:self.clipsToBounds];
+                     [fillerImageView.layer setCornerRadius:self.layer.cornerRadius];
+                     [self.superview addSubview:fillerImageView];
+                     
+                     [self setImage:remoteImage maintainsCornerRadius:YES];
+                     [self setAlpha:0.0f];
+                     
+                     __weak typeof(self) selfBlockReference = self;
+                     [UIView crossFadeWithDuration:1.5f
+                                    animationBlock:^
+                      {
+                          [fillerImageView setAlpha:0.0f];
+                          [self setAlpha:1.0f];
+                      }
+                                        completion:^(BOOL finished)
+                      {
+                          if(self.tag == localTagIteration)[selfBlockReference setImage:remoteImage maintainsCornerRadius:YES];
+                          [fillerImageView removeFromSuperview];
+                      }];
+                 }
+                 else
+                 {
+                     [self setImage:remoteImage maintainsCornerRadius:YES];
+                 }
              }
          }];
     }

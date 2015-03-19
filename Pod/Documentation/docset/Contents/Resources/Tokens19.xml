@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Alignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Alignment)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Alignment.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerViews:withVerticalSeparations:inHeight:withYInset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Alignment.h</DeclaredIn>
+			
+			<Declaration>+ (void)centerViews:(NSArray *)views withVerticalSeparations:(NSArray *)verticalSeparations inHeight:(CGFloat)height withYInset:(CGFloat)yInset</Declaration>
+			
+			
+			<Anchor>//api/name/centerViews:withVerticalSeparations:inHeight:withYInset:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerViews:withVerticalSeparations:onView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Alignment.h</DeclaredIn>
+			
+			<Declaration>+ (void)centerViews:(NSArray *)views withVerticalSeparations:(NSArray *)verticalSeparations onView:(UIView *)superview</Declaration>
+			
+			
+			<Anchor>//api/name/centerViews:withVerticalSeparations:onView:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerViews:withVerticalSeparations:onView:addingViewsToSuperview:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Alignment.h</DeclaredIn>
+			
+			<Declaration>+ (void)centerViews:(NSArray *)views withVerticalSeparations:(NSArray *)verticalSeparations onView:(UIView *)superview addingViewsToSuperview:(BOOL)shouldAddToSuperview</Declaration>
+			
+			
+			<Anchor>//api/name/centerViews:withVerticalSeparations:onView:addingViewsToSuperview:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerViews:withHorizontalSeparations:onView:addingViewsToSuperview:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Alignment.h</DeclaredIn>
+			
+			<Declaration>+ (void)centerViews:(NSArray *)views withHorizontalSeparations:(NSArray *)horizontalSeparations onView:(UIView *)superview addingViewsToSuperview:(BOOL)shouldAddToSuperview</Declaration>
+			
+			
+			<Anchor>//api/name/centerViews:withHorizontalSeparations:onView:addingViewsToSuperview:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/addSubviews:withVerticalSeparations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Alignment.h</DeclaredIn>
+			
+			<Declaration>- (void)addSubviews:(NSArray *)views withVerticalSeparations:(NSArray *)verticalSeparations</Declaration>
+			
+			
+			<Anchor>//api/name/addSubviews:withVerticalSeparations:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/Jamie/Library/Developer/Shared/Documentation/DocSets/com.jamierevans.Pods.docset
+Time: 2015-03-17 21:44:22 +0000

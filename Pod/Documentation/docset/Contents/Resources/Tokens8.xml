@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIButton+Touches.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIButton(Touches)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIButton+Touches.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIButton/addHighlightToButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIButton+Touches.h</DeclaredIn>
+			
+			<Declaration>- (void)addHighlightToButton</Declaration>
+			
+			
+			<Anchor>//api/name/addHighlightToButton</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

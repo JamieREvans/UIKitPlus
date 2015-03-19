@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIApplication+Navigation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIApplication(Navigation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIApplication+Navigation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIApplication/navigationController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIApplication+Navigation.h</DeclaredIn>
+			
+			<Declaration>- (UINavigationController *)navigationController</Declaration>
+			
+			
+			<Anchor>//api/name/navigationController</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIApplication/pushController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIApplication+Navigation.h</DeclaredIn>
+			
+			<Declaration>- (void)pushController:(UIViewController *)controller</Declaration>
+			
+			
+			<Anchor>//api/name/pushController:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIApplication/popController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIApplication+Navigation.h</DeclaredIn>
+			
+			<Declaration>- (void)popController</Declaration>
+			
+			
+			<Anchor>//api/name/popController</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIApplication/presentController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIApplication+Navigation.h</DeclaredIn>
+			
+			<Declaration>- (void)presentController:(UIViewController *)controller</Declaration>
+			
+			
+			<Anchor>//api/name/presentController:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

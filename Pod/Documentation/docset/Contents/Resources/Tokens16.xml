@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UILabel+Allocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UILabel(Allocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/labelForAttributedText:yPosition:xPosition:maxWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)labelForAttributedText:(NSAttributedString *)attributedString yPosition:(CGFloat)yPosition xPosition:(CGFloat)xPosition maxWidth:(CGFloat)maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/labelForAttributedText:yPosition:xPosition:maxWidth:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/labelForAttributedText:yPosition:centeredInWidth:xOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)labelForAttributedText:(NSAttributedString *)attributedString yPosition:(CGFloat)yPosition centeredInWidth:(CGFloat)width xOffset:(CGFloat)xOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelForAttributedText:yPosition:centeredInWidth:xOffset:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/labelForString:attributes:yPosition:xPosition:maxWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)labelForString:(NSString *)string attributes:(NSAttributes *)attributes yPosition:(CGFloat)yPosition xPosition:(CGFloat)xPosition maxWidth:(CGFloat)maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/labelForString:attributes:yPosition:xPosition:maxWidth:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/labelForString:attributes:yPosition:centeredInWidth:xOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)labelForString:(NSString *)string attributes:(NSAttributes *)attributes yPosition:(CGFloat)yPosition centeredInWidth:(CGFloat)width xOffset:(CGFloat)xOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelForString:attributes:yPosition:centeredInWidth:xOffset:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

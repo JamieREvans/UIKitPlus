@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UINavigationItem+ButtonPositioning.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UINavigationItem(ButtonPositioning)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UINavigationItem+ButtonPositioning.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UINavigationItem/setLeftBarButtonItem:animated:withHorizontalPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UINavigationItem+ButtonPositioning.h</DeclaredIn>
+			
+			<Declaration>- (void)setLeftBarButtonItem:(UIBarButtonItem *)barButtonItem animated:(BOOL)isAnimated withHorizontalPadding:(CGFloat)horizontalPadding</Declaration>
+			
+			
+			<Anchor>//api/name/setLeftBarButtonItem:animated:withHorizontalPadding:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UINavigationItem/setRightBarButtonItem:animated:withHorizontalPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UINavigationItem+ButtonPositioning.h</DeclaredIn>
+			
+			<Declaration>- (void)setRightBarButtonItem:(UIBarButtonItem *)barButtonItem animated:(BOOL)isAnimated withHorizontalPadding:(CGFloat)horizontalPadding</Declaration>
+			
+			
+			<Anchor>//api/name/setRightBarButtonItem:animated:withHorizontalPadding:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
