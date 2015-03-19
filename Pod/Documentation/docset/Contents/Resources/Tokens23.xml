@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Framing.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Framing)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/onePixel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>+ (CGFloat)onePixel</Declaration>
+			
+			
+			<Anchor>//api/name/onePixel</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/width</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/height</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/leftSidePosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)leftSidePosition</Declaration>
+			
+			
+			<Anchor>//api/name/leftSidePosition</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/topPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)topPosition</Declaration>
+			
+			
+			<Anchor>//api/name/topPosition</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/rightSideOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)rightSideOffset</Declaration>
+			
+			
+			<Anchor>//api/name/rightSideOffset</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/bottomOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)bottomOffset</Declaration>
+			
+			
+			<Anchor>//api/name/bottomOffset</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setXPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)setXPosition:(CGFloat)xPosition</Declaration>
+			
+			
+			<Anchor>//api/name/setXPosition:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setYPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)setYPosition:(CGFloat)yPosition</Declaration>
+			
+			
+			<Anchor>//api/name/setYPosition:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)setWidth:(CGFloat)width</Declaration>
+			
+			
+			<Anchor>//api/name/setWidth:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)setHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/setHeight:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/offsetXPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)offsetXPosition:(CGFloat)xOffset</Declaration>
+			
+			
+			<Anchor>//api/name/offsetXPosition:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/offsetYPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)offsetYPosition:(CGFloat)yOffset</Declaration>
+			
+			
+			<Anchor>//api/name/offsetYPosition:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerInWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInWidth:(CGFloat)width</Declaration>
+			
+			
+			<Anchor>//api/name/centerInWidth:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerInWidth:forXOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInWidth:(CGFloat)width forXOffset:(CGFloat)xOffset</Declaration>
+			
+			
+			<Anchor>//api/name/centerInWidth:forXOffset:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerInWidth:forXOffset:subtractingOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInWidth:(CGFloat)width forXOffset:(CGFloat)xOffset subtractingOffset:(BOOL)shouldDiscountOffset</Declaration>
+			
+			
+			<Anchor>//api/name/centerInWidth:forXOffset:subtractingOffset:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerInHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/centerInHeight:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerInHeight:forYOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInHeight:(CGFloat)height forYOffset:(CGFloat)yOffset</Declaration>
+			
+			
+			<Anchor>//api/name/centerInHeight:forYOffset:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerInHeight:forYOffset:subtractingOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInHeight:(CGFloat)height forYOffset:(CGFloat)yOffset subtractingOffset:(BOOL)shouldDiscountOffset</Declaration>
+			
+			
+			<Anchor>//api/name/centerInHeight:forYOffset:subtractingOffset:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerInSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInSize:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/centerInSize:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerHorizontallyToView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerHorizontallyToView:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/centerHorizontallyToView:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/centerVerticallyToView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerVerticallyToView:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/centerVerticallyToView:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignBottomToYPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)alignBottomToYPosition:(CGFloat)yPosition</Declaration>
+			
+			
+			<Anchor>//api/name/alignBottomToYPosition:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/alignRightToXPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)alignRightToXPosition:(CGFloat)xPosition</Declaration>
+			
+			
+			<Anchor>//api/name/alignRightToXPosition:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/scaledSizeForImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)scaledSizeForImages</Declaration>
+			
+			
+			<Anchor>//api/name/scaledSizeForImages</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

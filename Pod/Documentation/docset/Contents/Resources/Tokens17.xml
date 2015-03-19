@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UILabel+Framing.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UILabel(Framing)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/setSingleLineAtYPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)setSingleLineAtYPosition:(CGFloat)yPosition</Declaration>
+			
+			
+			<Anchor>//api/name/setSingleLineAtYPosition:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/centerInHeight:forYOffset:cleanView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)centerInHeight:(CGFloat)height forYOffset:(CGFloat)yOffset cleanView:(BOOL)cleanView</Declaration>
+			
+			
+			<Anchor>//api/name/centerInHeight:forYOffset:cleanView:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/alignToBaselineOfLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)alignToBaselineOfLabel:(UILabel *)comparisonLabel</Declaration>
+			
+			
+			<Anchor>//api/name/alignToBaselineOfLabel:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/baselineYPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)baselineYPosition</Declaration>
+			
+			
+			<Anchor>//api/name/baselineYPosition</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/alignBaselineToYPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)alignBaselineToYPosition:(CGFloat)yPosition</Declaration>
+			
+			
+			<Anchor>//api/name/alignBaselineToYPosition:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/alignToXHeightOfLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)alignToXHeightOfLabel:(UILabel *)comparisonLabel</Declaration>
+			
+			
+			<Anchor>//api/name/alignToXHeightOfLabel:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/cleanFontPadding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanFontPadding</Declaration>
+			
+			
+			<Anchor>//api/name/cleanFontPadding</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/resizeWithText:inWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)resizeWithText:(NSString *)text inWidth:(CGFloat)width</Declaration>
+			
+			
+			<Anchor>//api/name/resizeWithText:inWidth:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/fixHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)fixHeight</Declaration>
+			
+			
+			<Anchor>//api/name/fixHeight</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/fixHeightForMaxLines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)fixHeightForMaxLines:(NSInteger)maximumNumberOfLines</Declaration>
+			
+			
+			<Anchor>//api/name/fixHeightForMaxLines:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/fixHeightForMaxHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)fixHeightForMaxHeight:(CGFloat)maximumHeight</Declaration>
+			
+			
+			<Anchor>//api/name/fixHeightForMaxHeight:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/fixWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+Framing.h</DeclaredIn>
+			
+			<Declaration>- (void)fixWidth</Declaration>
+			
+			
+			<Anchor>//api/name/fixWidth</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

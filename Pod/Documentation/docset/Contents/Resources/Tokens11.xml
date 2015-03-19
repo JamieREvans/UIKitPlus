@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImage+Framing.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImage(Framing)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Framing.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/scaledSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)scaledSize</Declaration>
+			
+			
+			<Anchor>//api/name/scaledSize</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/frameCenteredInSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Framing.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)frameCenteredInSize:(CGSize)containingViewSize</Declaration>
+			
+			
+			<Anchor>//api/name/frameCenteredInSize:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByScalingAndCroppingForSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Framing.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)imageByScalingAndCroppingForSize:(CGSize)targetSize</Declaration>
+			
+			
+			<Anchor>//api/name/imageByScalingAndCroppingForSize:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

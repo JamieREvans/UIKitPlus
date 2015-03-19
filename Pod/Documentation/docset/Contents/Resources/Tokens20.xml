@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Allocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Allocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/viewWithWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)viewWithWidth:(CGFloat)width</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithWidth:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/viewWithWidth:atPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)viewWithWidth:(CGFloat)width atPoint:(CGPoint)originPoint</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithWidth:atPoint:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/viewWithHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)viewWithHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithHeight:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/viewWithHeight:atPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)viewWithHeight:(CGFloat)height atPoint:(CGPoint)originPoint</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithHeight:atPoint:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/viewWithSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)viewWithSize:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithSize:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/viewWithWidth:andHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)viewWithWidth:(CGFloat)width andHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithWidth:andHeight:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

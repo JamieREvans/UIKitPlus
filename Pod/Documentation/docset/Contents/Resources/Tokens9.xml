@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+Allocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(Allocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/color256WithRed:green:blue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)color256WithRed:(CGFloat)redValue green:(CGFloat)greenValue blue:(CGFloat)blueValue</Declaration>
+			
+			
+			<Anchor>//api/name/color256WithRed:green:blue:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/color256WithRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)color256WithRed:(CGFloat)redValue green:(CGFloat)greenValue blue:(CGFloat)blueValue alpha:(CGFloat)alphaValue</Declaration>
+			
+			
+			<Anchor>//api/name/color256WithRed:green:blue:alpha:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/color256WithWhite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)color256WithWhite:(CGFloat)whiteValue</Declaration>
+			
+			
+			<Anchor>//api/name/color256WithWhite:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/color256WithWhite:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)color256WithWhite:(CGFloat)whiteValue alpha:(CGFloat)alphaValue</Declaration>
+			
+			
+			<Anchor>//api/name/color256WithWhite:alpha:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithHexString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+Allocation.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithHexString:(NSString *)hexString</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithHexString:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

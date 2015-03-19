@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/FontType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/FontType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/FontTypeRegular</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>FontTypeRegular</Declaration>
+            
+            <DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/FontTypeLight</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>FontTypeLight</Declaration>
+            
+            <DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/FontTypeUltraLight</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>FontTypeUltraLight</Declaration>
+            
+            <DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/FontTypeMedium</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>FontTypeMedium</Declaration>
+            
+            <DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/FontTypeBold</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>FontTypeBold</Declaration>
+            
+            <DeclaredIn>UIFont+Allocation.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

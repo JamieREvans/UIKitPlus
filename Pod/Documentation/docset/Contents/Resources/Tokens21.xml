@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Animation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Animation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/crossFadeWithDuration:animationBlock:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>+ (void)crossFadeWithDuration:(CGFloat)animationDuration animationBlock:(void ( ^ ) ( ))animation completion:(void ( ^ ) ( BOOL ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/crossFadeWithDuration:animationBlock:completion:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -26,6 +26,10 @@ typedef NS_ENUM(NSUInteger, NavigationButtonType)
 @required
 
 // Can pass multiple button types
+/*!
+ * @discussion Sets the navigation buttons for the UIViewController's navigationBar
+ * @param types An NSUInteger that can represent multiple NavigationButtonType's
+ */
 - (void)setNavigationButtons:(NavigationButtonType)types;
 
 @optional

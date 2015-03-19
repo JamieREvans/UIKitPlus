@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIViewController+NavigationBar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIViewController(NavigationBar)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+NavigationBar.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIViewController/navigationBarShadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+NavigationBar.h</DeclaredIn>
+			
+			<Declaration>- (UIImageView *)navigationBarShadow</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBarShadow</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIViewController/showNavigationBarShadowAnimated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+NavigationBar.h</DeclaredIn>
+			
+			<Declaration>- (void)showNavigationBarShadowAnimated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/showNavigationBarShadowAnimated:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIViewController/hideNavigationBarShadowAnimated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+NavigationBar.h</DeclaredIn>
+			
+			<Declaration>- (void)hideNavigationBarShadowAnimated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/hideNavigationBarShadowAnimated:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

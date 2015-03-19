@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NavigationButtonProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NavigationButtonProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NavigationButtonProtocol/setNavigationButtons:</TokenIdentifier>
+			<Abstract type="html">Sets the navigation buttons for the UIViewController&apos;s navigationBar</Abstract>
+			<DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+			
+			<Declaration>- (void)setNavigationButtons:(NavigationButtonType)types</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>types</Name>
+					<Abstract type="html">An NSUInteger that can represent multiple NavigationButtonType&apos;s</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setNavigationButtons:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NavigationButtonProtocol/openNavigationMenu</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+			
+			<Declaration>- (void)openNavigationMenu</Declaration>
+			
+			
+			<Anchor>//api/name/openNavigationMenu</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NavigationButtonProtocol/save</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+			
+			<Declaration>- (void)save</Declaration>
+			
+			
+			<Anchor>//api/name/save</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NavigationButtonProtocol/reset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+Buttons.h</DeclaredIn>
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImage+Network.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImage(Network)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Network.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/cachedImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Network.h</DeclaredIn>
+			
+			<Declaration>+ (NSMutableDictionary *)cachedImages</Declaration>
+			
+			
+			<Anchor>//api/name/cachedImages</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/isImageCachedForURLPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Network.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isImageCachedForURLPath:(NSString *)urlPath</Declaration>
+			
+			
+			<Anchor>//api/name/isImageCachedForURLPath:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/retreiveImageFromURLPath:allowsCaching:withCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Network.h</DeclaredIn>
+			
+			<Declaration>+ (void)retreiveImageFromURLPath:(NSString *)urlPath allowsCaching:(BOOL)allowsCaching withCallback:(void ( ^ ) ( UIImage *image ))callback</Declaration>
+			
+			
+			<Anchor>//api/name/retreiveImageFromURLPath:allowsCaching:withCallback:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/flushCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Network.h</DeclaredIn>
+			
+			<Declaration>+ (void)flushCache</Declaration>
+			
+			
+			<Anchor>//api/name/flushCache</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/flushCacheWithKeys:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Network.h</DeclaredIn>
+			
+			<Declaration>+ (void)flushCacheWithKeys:(NSArray *)keys</Declaration>
+			
+			
+			<Anchor>//api/name/flushCacheWithKeys:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/isValid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+Network.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isValid</Declaration>
+			
+			
+			<Anchor>//api/name/isValid</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
