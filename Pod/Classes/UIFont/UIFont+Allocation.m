@@ -63,13 +63,14 @@ static NSString *baseFontFamilyName = @"HelveticaNeue";
     return [UIFont fontWithName:fontName size:actualFontSize];
     
     // Broken in iOS 7
+    /*
     NSStringDrawingContext *context = [NSStringDrawingContext new];
     [context setMinimumScaleFactor:(minFontSize/maxFontSize)];
     NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:text attributes:@{NSFontAttributeName:[UIFont fontWithName:fontName size:maxFontSize]}];
     [attributedString boundingRectWithSize:CGSizeMake(maxWidth, FLT_MAX)
                                    options:NSStringDrawingUsesLineFragmentOrigin
                                    context:context];
-    return [UIFont fontWithName:fontName size:maxFontSize * ((context.actualScaleFactor > 0.0f) ? context.actualScaleFactor : 1.0f)];
+    return [UIFont fontWithName:fontName size:maxFontSize * ((context.actualScaleFactor > 0.0f) ? context.actualScaleFactor : 1.0f)];*/
 }
 #pragma clang diagnostic pop
 
