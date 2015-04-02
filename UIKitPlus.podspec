@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "UIKitPlus"
-  s.version          = "0.1.1"
+  s.version          = "1.0.0"
   s.summary          = "The missing UIKit methods"
   s.homepage         = "https://github.com/JamieREvans/UIKitPlus"
   s.license          = 'MIT'
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
     'UIKitPlus' => ['Pod/Assets/*.png']
   }
 
-  s.dependency 'FoundationPlus', '~> 0.1.0'
+  s.dependency 'FoundationPlus', '~> 1.0.0'
 
 end
