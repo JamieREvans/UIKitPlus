@@ -1,20 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-def common_pods
-
-  pod 'UIKitPlus', :path => '../'
-
-end
-
 target 'UIKitPlus', :exclusive => true do
-  
-  common_pods
+    
+    pod 'UIKitPlus', :path => '../'
   
 end
 
 target 'Tests', :exclusive => true do
-  
-  common_pods
 
   pod 'Kiwi'
   pod 'FBSnapshotTestCase'
