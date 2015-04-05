@@ -28,6 +28,11 @@ describe(@"UIImageView", ^{
             subject.height should equal(300.0f);
         });
         
+        it(@"should have set the image", ^{
+            
+            subject.image should_not be_nil;
+        });
+        
         it(@"should be maintaining the image aspect ratio", ^{
             
             subject.contentMode should equal(UIViewContentModeScaleAspectFill);
