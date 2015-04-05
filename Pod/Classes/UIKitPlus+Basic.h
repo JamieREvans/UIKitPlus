@@ -20,6 +20,7 @@
 #import "UIView+Subviews.h"
 #import "UIApplication+Navigation.h"
 #import "UIImageView+Allocation.h"
+#import "UIImageView+Framing.h"
 #import "UIImageView+Network.h"
 #import "UIImageView+Rendering.h"
 #import "UILabel+Allocation.h"
