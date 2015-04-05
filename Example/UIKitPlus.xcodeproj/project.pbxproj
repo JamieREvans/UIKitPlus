@@ -22,7 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6C9E6FB352A6E26E6FC47119 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D389858C1BC93F40A2E536 /* libPods-Tests.a */; };
-		7D29A8491AB79AF7005991EC /* UIFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D29A8481AB79AF7005991EC /* UIFontTests.m */; };
+		7DED0B0F1AD189D300D7167E /* UIFontSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DED0B0E1AD189D300D7167E /* UIFontSpec.mm */; };
+		7DED0B111AD18A6700D7167E /* UIImageViewSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DED0B101AD18A6700D7167E /* UIImageViewSpec.mm */; };
 		8A96432978E71A047BBA0043 /* libPods-UIKitPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36651B53FD462164CEE384C6 /* libPods-UIKitPlus.a */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +60,8 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7D29A8481AB79AF7005991EC /* UIFontTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFontTests.m; sourceTree = "<group>"; };
+		7DED0B0E1AD189D300D7167E /* UIFontSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIFontSpec.mm; sourceTree = "<group>"; };
+		7DED0B101AD18A6700D7167E /* UIImageViewSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageViewSpec.mm; sourceTree = "<group>"; };
 		82B581119FA0B2C78CF873D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		85965FA3B5E737ACDAFC85FF /* UIKitPlus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitPlus.podspec; path = ../UIKitPlus.podspec; sourceTree = "<group>"; };
 		87D389858C1BC93F40A2E536 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,7 +160,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7D29A8481AB79AF7005991EC /* UIFontTests.m */,
+				7DED0B0E1AD189D300D7167E /* UIFontSpec.mm */,
+				7DED0B101AD18A6700D7167E /* UIImageViewSpec.mm */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -371,7 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D29A8491AB79AF7005991EC /* UIFontTests.m in Sources */,
+				7DED0B0F1AD189D300D7167E /* UIFontSpec.mm in Sources */,
+				7DED0B111AD18A6700D7167E /* UIImageViewSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

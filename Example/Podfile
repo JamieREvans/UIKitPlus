@@ -8,7 +8,7 @@ end
 
 target 'Tests', :exclusive => true do
 
-  pod 'Kiwi'
+  pod 'Cedar'
   pod 'FBSnapshotTestCase'
   
 end
