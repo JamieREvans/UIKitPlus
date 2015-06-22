@@ -52,7 +52,7 @@
                  
                  if(shouldAnimate)
                  {
-                     UIImageView *fillerImageView = [UIImageView imageViewWithFrame:self.bounds andImage:self.image];
+                     UIImageView *fillerImageView = [UIImageView imageViewWithFrame:self.frame andImage:self.image];
                      [fillerImageView setAlpha:1.0f];
                      [fillerImageView setClipsToBounds:self.clipsToBounds];
                      [fillerImageView.layer setCornerRadius:self.layer.cornerRadius];
