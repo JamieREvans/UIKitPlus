@@ -54,6 +54,7 @@
                  {
                      UIImageView *fillerImageView = [UIImageView imageViewWithFrame:self.frame andImage:self.image];
                      [fillerImageView setAlpha:1.0f];
+                     [fillerImageView setContentMode:self.contentMode];
                      [fillerImageView setClipsToBounds:self.clipsToBounds];
                      [fillerImageView.layer setCornerRadius:self.layer.cornerRadius];
                      [self.superview addSubview:fillerImageView];
@@ -70,7 +71,12 @@
                       }
                                         completion:^(BOOL finished)
                       {
-                          if(self.tag == localTagIteration)[selfBlockReference setImage:remoteImage maintainsCornerRadius:YES];
+                          if(self.tag == localTagIteration)
+                          {
+                              [selfBlockReference setImage:remoteImage
+                                     maintainsCornerRadius:YES
+                                             croppingImage:(self.contentMode == UIViewContentModeScaleAspectFill)];
+                          }
                           [fillerImageView removeFromSuperview];
                       }];
                  }

@@ -10,7 +10,9 @@
 
 @interface UIImageView (Rendering)
 
+// Defaults shouldCrop to YES
 - (void)setImage:(UIImage *)image maintainsCornerRadius:(BOOL)shouldMaintainCornerRadius;
+- (void)setImage:(UIImage *)image maintainsCornerRadius:(BOOL)shouldMaintainCornerRadius croppingImage:(BOOL)shouldCrop;
 // Defaults respectingBounds to NO
 - (void)setImage:(UIImage *)image automaticallyAdjustsFrame:(BOOL)shouldAutomaticallyAdjustFrame;
 - (void)setImage:(UIImage *)image automaticallyAdjustsFrame:(BOOL)shouldAutomaticallyAdjustFrame respectingBounds:(BOOL)respectsBounds;
