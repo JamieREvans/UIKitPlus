@@ -76,7 +76,9 @@
                 dispatch_group_enter(imageGroup);
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^
                                {
-                                   UIImage *remoteImage = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:urlPath]]];
+                                   UIImage *remoteImage = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:urlPath]
+                                                                                                              options:NSDataReadingUncached
+                                                                                                                error:nil]];
                                    if(allowsCaching && remoteImage)
                                    {
                                        @synchronized(self)
