@@ -49,20 +49,22 @@
              if(remoteImage.isValid)
              {
                  if(remoteImage == self.image || self.tag != localTagIteration)return;
+
+                 BOOL shouldCrop = (self.contentMode == UIViewContentModeScaleAspectFill);
                  
                  if(shouldAnimate)
                  {
-                     UIImageView *fillerImageView = [UIImageView imageViewWithFrame:self.frame andImage:self.image];
+                     UIImageView *fillerImageView = [[UIImageView alloc] initWithFrame:self.frame];
+                     [fillerImageView setImage:self.image];
                      [fillerImageView setAlpha:1.0f];
                      [fillerImageView setContentMode:self.contentMode];
                      [fillerImageView setClipsToBounds:self.clipsToBounds];
                      [fillerImageView.layer setCornerRadius:self.layer.cornerRadius];
                      [self.superview addSubview:fillerImageView];
                      
-                     [self setImage:remoteImage maintainsCornerRadius:YES];
+                     [self setImage:remoteImage maintainsCornerRadius:YES croppingImage:shouldCrop];
                      [self setAlpha:0.0f];
                      
-                     __weak typeof(self) selfBlockReference = self;
                      [UIView crossFadeWithDuration:1.5f
                                     animationBlock:^
                       {
@@ -71,18 +73,12 @@
                       }
                                         completion:^(BOOL finished)
                       {
-                          if(self.tag == localTagIteration)
-                          {
-                              [selfBlockReference setImage:remoteImage
-                                     maintainsCornerRadius:YES
-                                             croppingImage:(self.contentMode == UIViewContentModeScaleAspectFill)];
-                          }
                           [fillerImageView removeFromSuperview];
                       }];
                  }
                  else
                  {
-                     [self setImage:remoteImage maintainsCornerRadius:YES];
+                     [self setImage:remoteImage maintainsCornerRadius:YES croppingImage:shouldCrop];
                  }
              }
          }];
