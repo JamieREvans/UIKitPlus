@@ -25,13 +25,15 @@
 
 + (instancetype)attributesWithFont:(UIFont *)font textColor:(UIColor *)textColor lineSpacing:(CGFloat)lineSpacing
 {
-    NSMutableDictionary *attributesDictionary = @{NSFontAttributeName: font,
-                                                  NSForegroundColorAttributeName: textColor}.mutableCopy;
+    NSDictionary *attributesDictionary = @{NSFontAttributeName: font,
+                                                  NSForegroundColorAttributeName: textColor};
     if(lineSpacing >= 0.0f)
     {
+        NSMutableDictionary *mutableAttributesDictionary = attributesDictionary.mutableCopy;
         NSMutableParagraphStyle *paragraphStyle = [NSMutableParagraphStyle new];
         [paragraphStyle setLineSpacing:lineSpacing];
-        [attributesDictionary setObject:paragraphStyle forKey:NSParagraphStyleAttributeName];
+
+        mutableAttributesDictionary[NSParagraphStyleAttributeName] = paragraphStyle;
     }
     
     return attributesDictionary.copy;

@@ -22,6 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6C9E6FB352A6E26E6FC47119 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D389858C1BC93F40A2E536 /* libPods-Tests.a */; };
+		7D5765591B6ADB2900AE3961 /* UIKitPlus.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7D5765581B6ADB2900AE3961 /* UIKitPlus.podspec */; };
 		7DED0B0F1AD189D300D7167E /* UIFontSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DED0B0E1AD189D300D7167E /* UIFontSpec.mm */; };
 		7DED0B111AD18A6700D7167E /* UIImageViewSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DED0B101AD18A6700D7167E /* UIImageViewSpec.mm */; };
 		8A96432978E71A047BBA0043 /* libPods-UIKitPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36651B53FD462164CEE384C6 /* libPods-UIKitPlus.a */; };
@@ -60,10 +61,10 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		7D5765581B6ADB2900AE3961 /* UIKitPlus.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UIKitPlus.podspec; path = ../UIKitPlus.podspec; sourceTree = "<group>"; };
 		7DED0B0E1AD189D300D7167E /* UIFontSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIFontSpec.mm; sourceTree = "<group>"; };
 		7DED0B101AD18A6700D7167E /* UIImageViewSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageViewSpec.mm; sourceTree = "<group>"; };
 		82B581119FA0B2C78CF873D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		85965FA3B5E737ACDAFC85FF /* UIKitPlus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitPlus.podspec; path = ../UIKitPlus.podspec; sourceTree = "<group>"; };
 		87D389858C1BC93F40A2E536 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C614A8CC178489AECF1AB1 /* Pods-UIKitPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIKitPlus/Pods-UIKitPlus.debug.xcconfig"; sourceTree = "<group>"; };
 		A6484D0C67915756C39B3586 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -180,7 +181,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				85965FA3B5E737ACDAFC85FF /* UIKitPlus.podspec */,
+				7D5765581B6ADB2900AE3961 /* UIKitPlus.podspec */,
 				82B581119FA0B2C78CF873D8 /* README.md */,
 				A6484D0C67915756C39B3586 /* LICENSE */,
 			);
@@ -281,6 +282,7 @@
 			files = (
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				7D5765591B6ADB2900AE3961 /* UIKitPlus.podspec in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
