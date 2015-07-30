@@ -15,7 +15,7 @@
 
 + (instancetype)labelForAttributedText:(NSAttributedString *)attributedString inWidth:(CGFloat)width
 {
-    UILabel *label = [UILabel new];
+    UILabel *label = [self new];
     [label setBackgroundColor:[UIColor clearColor]];
     [label setAttributedText:attributedString];
     [label setNumberOfLines:0];

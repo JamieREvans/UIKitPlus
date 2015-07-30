@@ -7,6 +7,7 @@
 //
 
 #import "UIFont+Allocation.h"
+#import "NSArray+Allocation.h"
 
 static NSString *baseFontFamilyName = @"HelveticaNeue";
 
@@ -51,7 +52,7 @@ static NSString *baseFontFamilyName = @"HelveticaNeue";
 
 + (UIFont *)fontWithType:(FontType)fontType andSize:(CGFloat)fontSize
 {
-    return [UIFont fontWithName:[self fontNameWithType:fontType] size:fontSize];
+    return [self fontWithName:[self fontNameWithType:fontType] size:fontSize];
 }
 
 #pragma clang diagnostic push
@@ -59,8 +60,8 @@ static NSString *baseFontFamilyName = @"HelveticaNeue";
 + (UIFont *)fontForText:(NSString *)text withFontName:(NSString *)fontName maxFontSize:(CGFloat)maxFontSize minFontSize:(CGFloat)minFontSize inWidth:(CGFloat)maxWidth
 {
     CGFloat actualFontSize;
-    [text sizeWithFont:[UIFont fontWithName:fontName size:maxFontSize] minFontSize:minFontSize actualFontSize:&actualFontSize forWidth:maxWidth lineBreakMode:NSLineBreakByTruncatingTail];
-    return [UIFont fontWithName:fontName size:actualFontSize];
+    [text sizeWithFont:[self fontWithName:fontName size:maxFontSize] minFontSize:minFontSize actualFontSize:&actualFontSize forWidth:maxWidth lineBreakMode:NSLineBreakByTruncatingTail];
+    return [self fontWithName:fontName size:actualFontSize];
     
     // Broken in iOS 7
     /*
@@ -76,7 +77,21 @@ static NSString *baseFontFamilyName = @"HelveticaNeue";
 
 - (instancetype)italicized
 {
-    return [UIFont fontWithName:[NSString stringWithFormat:@"%@%@Italic", self.fontName, ([[[self class] fontNameWithType:FontTypeRegular] isEqualToString:self.fontName] ? @"-" : @"")] size:self.pointSize];
+    __block NSUInteger shortestFontNameLength = INT_MAX;
+    NSString *fontName = [[[self class] fontNamesForFamilyName:self.familyName] subarrayWithObjectsPassingConstraint:^BOOL(NSObject *object)
+     {
+         NSString *currentFontName = (NSString *)object;
+         if(currentFontName.length < shortestFontNameLength && [currentFontName containsString:self.fontName] && [currentFontName rangeOfString:@"italic" options:NSCaseInsensitiveSearch].location != NSNotFound)
+         {
+             shortestFontNameLength = currentFontName.length;
+             return YES;
+         }
+         else
+         {
+             return NO;
+         }
+     }].lastObject;
+    return [UIFont fontWithName:fontName size:self.pointSize];
 }
 
 - (CGFloat)lineHeightCapped

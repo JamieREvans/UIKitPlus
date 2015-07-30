@@ -12,7 +12,7 @@
 @interface NSAttributedString (Allocation)
 
 + (NSAttributedString *)attributedStringWithString:(NSString *)string font:(UIFont *)font andTextColor:(UIColor *)textColor;
-+ (NSAttributedString *)attributedStringWithTextSegments:(NSArray *)textSegments andAttributeSegments:(NSArray *)attributeDictionaries;
++ (NSMutableAttributedString *)attributedStringWithTextSegments:(NSArray *)textSegments andAttributeSegments:(NSArray *)attributeDictionaries;
 
 - (instancetype)addFont:(UIFont *)font forRange:(NSRange)range;
 - (instancetype)addFont:(UIFont *)font forString:(NSString *)searchString onlyFirstOccurence:(BOOL)onlyFirstOccurence;

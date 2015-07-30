@@ -17,10 +17,10 @@
 - (void)alignBaselineToYPosition:(CGFloat)yPosition;
 - (void)alignToXHeightOfLabel:(UILabel *)comparisonLabel;
 - (void)cleanFontPadding;
-- (void)resizeWithText:(NSString *)text inWidth:(CGFloat)width;
 
 - (void)fixHeight;
 - (void)fixHeightForMaxLines:(NSInteger)maximumNumberOfLines;
+- (void)fixHeightForMaxLines:(NSInteger)maximumNumberOfLines withLineSpacing:(CGFloat)lineSpacing;
 - (void)fixHeightForMaxHeight:(CGFloat)maximumHeight;
 - (void)fixWidth;
 
