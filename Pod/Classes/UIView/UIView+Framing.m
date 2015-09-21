@@ -16,8 +16,8 @@
 - (CGFloat)height{return self.frame.size.height;}
 - (CGFloat)leftSidePosition{return self.frame.origin.x;}
 - (CGFloat)topPosition{return self.frame.origin.y;}
-- (CGFloat)rightSideOffset{return self.frame.origin.x + self.frame.size.width;}
-- (CGFloat)bottomOffset{return self.frame.origin.y + self.frame.size.height;}
+- (CGFloat)rightSideOffset{return CGRectGetMaxX(self.frame);}
+- (CGFloat)bottomOffset{return CGRectGetMaxY(self.frame);}
 
 - (void)setXPosition:(CGFloat)xPosition
 {

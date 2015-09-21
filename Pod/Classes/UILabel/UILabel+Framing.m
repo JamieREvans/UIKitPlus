@@ -66,22 +66,6 @@
     [self setFrame:stampLabelFrame];
 }
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-- (void)resizeWithText:(NSString *)text inWidth:(CGFloat)width
-{
-    CGSize size = [text sizeWithFont:self.font
-                   constrainedToSize:CGSizeMake(width, FLT_MAX)
-                       lineBreakMode:NSLineBreakByWordWrapping];
-    CGRect frame = self.frame;
-    frame.size.width = ceil(size.width);
-    frame.size.height = ceil(size.height);
-    [self setFrame:frame];
-    
-    [self setText:text];
-}
-#pragma clang diagnostic pop
-
 - (void)fixHeight
 {
     if(self.numberOfLines)[self fixHeightForMaxLines:self.numberOfLines];
@@ -90,7 +74,12 @@
 
 - (void)fixHeightForMaxLines:(NSInteger)maximumNumberOfLines
 {
-    [self fixHeightForMaxHeight:(maximumNumberOfLines ? (self.font.lineHeightCapped * maximumNumberOfLines) : FLT_MAX)];
+    [self fixHeightForMaxLines:maximumNumberOfLines withLineSpacing:0.0];
+}
+
+- (void)fixHeightForMaxLines:(NSInteger)maximumNumberOfLines withLineSpacing:(CGFloat)lineSpacing
+{
+    [self fixHeightForMaxHeight:(maximumNumberOfLines ? ((self.font.lineHeightCapped + lineSpacing) * maximumNumberOfLines) : FLT_MAX)];
 }
 
 - (void)fixHeightForMaxHeight:(CGFloat)maximumHeight

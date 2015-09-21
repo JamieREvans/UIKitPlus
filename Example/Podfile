@@ -1,14 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'UIKitPlus', :exclusive => true do
-    
     pod 'UIKitPlus', :path => '../'
-  
 end
 
 target 'Tests', :exclusive => true do
-
-  pod 'Kiwi'
-  pod 'FBSnapshotTestCase'
-  
+  pod 'Cedar'
 end

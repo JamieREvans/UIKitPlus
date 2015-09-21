@@ -16,10 +16,10 @@
 
 + (NSAttributedString *)attributedStringWithString:(NSString *)string font:(UIFont *)font andTextColor:(UIColor *)textColor
 {
-    return [[NSAttributedString alloc] initWithString:string attributes:[NSAttributes attributesWithFont:font textColor:textColor]];
+    return [[self alloc] initWithString:string attributes:[NSAttributes attributesWithFont:font textColor:textColor]];
 }
 
-+ (NSAttributedString *)attributedStringWithTextSegments:(NSArray *)textSegments andAttributeSegments:(NSArray *)attributeDictionaries
++ (NSMutableAttributedString *)attributedStringWithTextSegments:(NSArray *)textSegments andAttributeSegments:(NSArray *)attributeDictionaries
 {
     NSMutableAttributedString *attributedString = [NSMutableAttributedString new];
     

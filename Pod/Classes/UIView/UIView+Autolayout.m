@@ -26,10 +26,6 @@
 
 - (void)alignToRightOfView:(UIView *)view withPadding:(CGFloat)padding
 {
-    if(view.translatesAutoresizingMaskIntoConstraints)
-    {
-        
-    }
     [self applyConstraint:[NSLayoutConstraint constraintWithItem:self
                                                        attribute:NSLayoutAttributeLeft
                                                        relatedBy:NSLayoutRelationEqual

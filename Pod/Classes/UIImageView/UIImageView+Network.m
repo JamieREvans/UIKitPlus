@@ -41,42 +41,46 @@
         {
             [self setImage:placeholderImage];
         }
-        
+
+        __weak UIImageView *weakSelf = self;
         [UIImage retreiveImageFromURLPath:url.absoluteString
                             allowsCaching:allowsCaching
                              withCallback:^(UIImage *remoteImage)
          {
-             if(remoteImage.isValid)
+             __strong UIImageView *strongSelf = weakSelf;
+             if(strongSelf && remoteImage.isValid)
              {
-                 if(remoteImage == self.image || self.tag != localTagIteration)return;
+                 if(remoteImage == strongSelf.image || strongSelf.tag != localTagIteration)return;
+
+                 BOOL shouldCrop = (strongSelf.contentMode == UIViewContentModeScaleAspectFill);
                  
                  if(shouldAnimate)
                  {
-                     UIImageView *fillerImageView = [UIImageView imageViewWithFrame:self.bounds andImage:self.image];
+                     UIImageView *fillerImageView = [[[strongSelf class] alloc] initWithFrame:strongSelf.frame];
+                     [fillerImageView setImage:strongSelf.image];
                      [fillerImageView setAlpha:1.0f];
-                     [fillerImageView setClipsToBounds:self.clipsToBounds];
-                     [fillerImageView.layer setCornerRadius:self.layer.cornerRadius];
-                     [self.superview addSubview:fillerImageView];
+                     [fillerImageView setContentMode:strongSelf.contentMode];
+                     [fillerImageView setClipsToBounds:strongSelf.clipsToBounds];
+                     [fillerImageView.layer setCornerRadius:strongSelf.layer.cornerRadius];
+                     [strongSelf.superview insertSubview:fillerImageView aboveSubview:strongSelf];
                      
-                     [self setImage:remoteImage maintainsCornerRadius:YES];
-                     [self setAlpha:0.0f];
+                     [strongSelf setImage:remoteImage maintainsCornerRadius:YES croppingImage:shouldCrop];
+                     [strongSelf setAlpha:0.0f];
                      
-                     __weak typeof(self) selfBlockReference = self;
                      [UIView crossFadeWithDuration:1.5f
                                     animationBlock:^
                       {
                           [fillerImageView setAlpha:0.0f];
-                          [self setAlpha:1.0f];
+                          [strongSelf setAlpha:1.0f];
                       }
                                         completion:^(BOOL finished)
                       {
-                          if(self.tag == localTagIteration)[selfBlockReference setImage:remoteImage maintainsCornerRadius:YES];
                           [fillerImageView removeFromSuperview];
                       }];
                  }
                  else
                  {
-                     [self setImage:remoteImage maintainsCornerRadius:YES];
+                     [strongSelf setImage:remoteImage maintainsCornerRadius:YES croppingImage:shouldCrop];
                  }
              }
          }];

@@ -14,7 +14,7 @@
 
 + (instancetype)buttonWithImage:(UIImage *)image yPosition:(CGFloat)yPosition xPosition:(CGFloat)xPosition
 {
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(xPosition, yPosition, image.size.width, image.size.height)];
+    UIButton *button = [[self alloc] initWithFrame:CGRectMake(xPosition, yPosition, image.size.width, image.size.height)];
     [button setImage:image forState:UIControlStateNormal];
     // TODO: Is it possible to extend the touch area on a UIButton through contentEdgeInsets?
     //[button setContentEdgeInsets:UIEdgeInsetsMake(EXTRA_BUTTON_TOUCH_AREA, EXTRA_BUTTON_TOUCH_AREA, EXTRA_BUTTON_TOUCH_AREA, EXTRA_BUTTON_TOUCH_AREA)];

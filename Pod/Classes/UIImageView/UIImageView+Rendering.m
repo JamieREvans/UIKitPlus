@@ -14,8 +14,20 @@
 
 - (void)setImage:(UIImage *)image maintainsCornerRadius:(BOOL)shouldMaintainCornerRadius
 {
+    [self setImage:image maintainsCornerRadius:shouldMaintainCornerRadius croppingImage:YES];
+}
+
+- (void)setImage:(UIImage *)image maintainsCornerRadius:(BOOL)shouldMaintainCornerRadius croppingImage:(BOOL)shouldCrop
+{
     CGFloat cornerRadius = (shouldMaintainCornerRadius ? self.layer.cornerRadius : 0.0f);
-    [self setImage:image croppingToBoundsRespectingScale:YES];
+    if(shouldCrop)
+    {
+        [self setImage:image croppingToBoundsRespectingScale:YES];
+    }
+    else
+    {
+        [self setImage:image];
+    }
     [self.layer setCornerRadius:cornerRadius];
 }
 
