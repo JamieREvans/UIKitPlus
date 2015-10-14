@@ -29,13 +29,12 @@
     @synchronized(self)
     {
         __block NSUInteger localTagIteration = (++self.tag ? : (self.tag = 1));
-        
+
         NSURL *url = [NSURL URLWithString:urlPath];
-        
+
         if(allowsCaching && [UIImage isImageCachedForURLPath:urlPath])
         {
-            [self setImage:[UIImage cachedImages][urlPath]];
-            return;
+            shouldAnimate = NO;
         }
         else
         {
@@ -53,7 +52,12 @@
                  if(remoteImage == strongSelf.image || strongSelf.tag != localTagIteration)return;
 
                  BOOL shouldCrop = (strongSelf.contentMode == UIViewContentModeScaleAspectFill);
-                 
+
+                 void (^setImageBlock)() = ^
+                 {
+                     [strongSelf setImage:remoteImage maintainsCornerRadius:YES croppingImage:shouldCrop];
+                 };
+
                  if(shouldAnimate)
                  {
                      UIImageView *fillerImageView = [[[strongSelf class] alloc] initWithFrame:strongSelf.frame];
@@ -63,10 +67,10 @@
                      [fillerImageView setClipsToBounds:strongSelf.clipsToBounds];
                      [fillerImageView.layer setCornerRadius:strongSelf.layer.cornerRadius];
                      [strongSelf.superview insertSubview:fillerImageView aboveSubview:strongSelf];
-                     
-                     [strongSelf setImage:remoteImage maintainsCornerRadius:YES croppingImage:shouldCrop];
+
+                     setImageBlock();
                      [strongSelf setAlpha:0.0f];
-                     
+
                      [UIView crossFadeWithDuration:1.5f
                                     animationBlock:^
                       {
@@ -80,7 +84,7 @@
                  }
                  else
                  {
-                     [strongSelf setImage:remoteImage maintainsCornerRadius:YES croppingImage:shouldCrop];
+                     setImageBlock();
                  }
              }
          }];

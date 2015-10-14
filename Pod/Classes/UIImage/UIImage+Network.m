@@ -62,7 +62,7 @@
             static NSUInteger numberOfOpenThreads = 0;
             
             // Prevent too many images from loading at once (causes UI framerate loss)
-            if(numberOfOpenThreads < MAX_IMAGE_DOWNLOAD_THREAD || (![[self imageQueue] containsObject:urlPath] && allowsCaching))
+            if(numberOfOpenThreads < MAX_IMAGE_DOWNLOAD_THREAD && (![[self imageQueue] containsObject:urlPath] && allowsCaching))
             {
                 // Add url to queue; preventing downloading the same image twice
                 if(allowsCaching)

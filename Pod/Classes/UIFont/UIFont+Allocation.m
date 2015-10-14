@@ -16,37 +16,26 @@ static NSString *baseFontFamilyName = @"HelveticaNeue";
 + (NSString *)baseFontFamilyName{return baseFontFamilyName;}
 + (void)setBaseFontFamilyName:(NSString *)_baseFontFamilyName{baseFontFamilyName = _baseFontFamilyName;}
 
-+ (NSString *)fontNameWithType:(FontType)fontType
++ (NSString *)fontExtensionWithType:(FontType)fontType
 {
-    NSString *fontExtension = nil;
     switch(fontType)
     {
-        case FontTypeLight:
-        {
-            fontExtension = @"Light";
-            break;
-        }
-        case FontTypeUltraLight:
-        {
-            fontExtension = @"UltraLight";
-            break;
-        }
-        case FontTypeMedium:
-        {
-            fontExtension = @"Medium";
-            break;
-        }
-        case FontTypeBold:
-        {
-            fontExtension = @"Bold";
-            break;
-        }
-        default:
-        {
-            fontExtension = @"";
-            break;
-        }
+        case FontTypeBase:       return @"";
+        case FontTypeRegular:    return @"Regular";
+        case FontTypeLight:      return @"Light";
+        case FontTypeBold:       return @"Bold";
+        case FontTypeMedium:     return @"Medium";
+        case FontTypeUltraLight: return @"UltraLight";
+        case FontTypeSemiBold:   return @"SemiBold";
+        case FontTypeDemiBold:   return @"DemiBold";
+        case FontTypeHeavy:      return @"Heavy";
     }
+}
+
++ (NSString *)fontNameWithType:(FontType)fontType
+{
+    NSString *fontExtension = [self fontExtensionWithType:fontType];
+
     return [NSString stringWithFormat:@"%@%@%@", [self baseFontFamilyName], (fontExtension.length ? @"-" : @""), fontExtension];
 }
 
