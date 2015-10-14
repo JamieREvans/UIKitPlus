@@ -10,11 +10,15 @@
 
 typedef NS_ENUM(NSUInteger, FontType)
 {
-    FontTypeRegular = 0,
+    FontTypeBase = 0,
+    FontTypeRegular,
     FontTypeLight,
     FontTypeUltraLight,
     FontTypeMedium,
-    FontTypeBold
+    FontTypeBold,
+    FontTypeSemiBold,
+    FontTypeDemiBold,
+    FontTypeHeavy
 };
 
 @interface UIFont (Allocation)

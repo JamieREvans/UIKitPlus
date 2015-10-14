@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "UIKitPlus"
-  s.version          = "1.1.1"
+  s.version          = "1.2.0"
   s.summary          = "The missing UIKit methods"
   s.homepage         = "https://github.com/JamieREvans/UIKitPlus"
   s.license          = 'MIT'
