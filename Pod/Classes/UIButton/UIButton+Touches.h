@@ -17,5 +17,6 @@ typedef NS_ENUM(NSUInteger, UIControlEventsExtended)
 @interface UIButton (Touches)
 
 - (void)addHighlightToButton;
+- (void)addHighlightToButtonWithOpacity:(CGFloat)opacity;
 
 @end
