@@ -32,8 +32,7 @@
 
 - (void)setOldNavigationController:(UINavigationController *)oldNavigationController {
     
-    objc_setAssociatedObject(self, @selector(oldNavigationController),
-                             oldNavigationController, OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, @selector(oldNavigationController), oldNavigationController, OBJC_ASSOCIATION_ASSIGN);
 }
 
 - (void)checkIfPopping:(BOOL)animated
