@@ -11,10 +11,13 @@
 @protocol NavigationNotificationExtention <NSObject>
 @optional
 
-- (void)viewControllerWasPopped;
+- (void)viewWillPop;
+- (void)viewDidPop;
 
 @end
 
 @interface UIViewController (Navigation) <NavigationNotificationExtention>
+
+@property (nonatomic, weak) UINavigationController *oldNavigationController;
 
 @end
